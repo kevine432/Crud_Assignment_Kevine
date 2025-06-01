@@ -1,0 +1,138 @@
+ *
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+body{
+  
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(-45deg, #415, #e560dc, #b00ad1, #478080, #d840bd);
+    background-size: 400% 400%;
+    animation: bg 12s ease infinite;
+
+}
+@keyframes bg{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+   
+}
+}
+.container{
+    padding: 20px;
+    width: 350px;
+    height: 380px;
+    border: 2px;
+    border-radius: 20px;
+    background:linear-gradient(rgba(209, 209, 224, 0.9),rgba(171, 124, 209, 0.973),rgb(243, 12, 231));
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+   backdrop-filter: blur(4px) saturate(180%);
+}
+.container input{
+    margin-top: 10px;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    padding: 1px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align:justify;
+    color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.l1{
+    position: absolute;
+    left: 50px;
+    font-size: large;
+    font-family: cursive;
+   
+    
+}
+.l2{
+    position: absolute;
+    left: 50px;
+    font-size: large;
+    font-family: cursive;
+   
+  
+    
+}.l3{
+    position: absolute;
+    left: 50px;
+    font-size: large;
+    font-family: cursive;
+   
+    
+    
+}.l4{
+    position:absolute;
+    left: 50px;
+    font-size: large;
+    font-family: cursive;
+   
+  
+    
+    
+}
+
+.pal{
+    margin-top: 20px;
+    font-size:25px;
+    font-variant: small-caps;
+    font-style:oblique;
+
+    font-family:cursive;
+
+}
+button{
+    width: 165px;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 17px;
+    position: relative;
+    background: #100720;
+    color: #fff;
+    transition: 0.1s;
+    
+}
+button::after{
+    content: '';
+    width: 200px;
+    height: 63px;
+    border-radius: 1rem;
+    background: linear-gradient(rgb(30, 183, 243),rgb(221, 152, 4));
+    filter: blur(10px);
+    z-index: -1;
+    position: absolute;
+    left:-13px;
+    top: -6px;
+    
+    
+    
+    
+   
+    
+}
+button:active{
+    transform: scale(0.9) rotate(3deg);
+    background: linear-gradient(rgb(196, 4, 186),rgb(7, 127, 182));
+    transition: 0.1s;
+    
+
+}
+
+
