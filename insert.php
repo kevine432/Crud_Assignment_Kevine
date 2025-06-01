@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Add Student</title>
+    <title>Add a Student</title>
 </head>
 <body>
     <h2>Add New Student</h2>
